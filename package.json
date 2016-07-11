@@ -1,0 +1,32 @@
+{
+  "name": "es6-babel-demo",
+  "version": "1.0.0",
+  "description": "A boilerplate app for using ES6.",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "babel src -d dist",
+    "test": "mocha"
+  },
+  "keywords": [
+    "ES6",
+    "Babel"
+  ],
+  "author": "Sean Amarasinghe",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szaranger/es6-babel-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/szaranger/es6-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/szaranger/es6-babel-boilerplate#readme"
+}
